@@ -8,4 +8,6 @@ public interface GammingConsole {
 	public void down();
 	public void center();
 	
+	
+	// bear ---> eat, caring , pet -- implements -- interface eat, care, pet
 }
