@@ -15,6 +15,10 @@ public class App02HelloWorld {
 		System.out.println(context.getBean("name"));
 		System.out.println(context.getBean("umar"));
 		System.out.println(context.getBean("person"));
+		System.out.println(context.getBean("address"));
+		System.out.println(context.getBean(Address.class));
+		System.out.println(context.getBean("personMethodCall"));
+		System.out.println(context.getBean("personMethodCall2"));
 	}
 
 }
